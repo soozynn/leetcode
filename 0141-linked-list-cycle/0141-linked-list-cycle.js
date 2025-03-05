@@ -27,7 +27,7 @@ var hasCycle = function(head) {
     // 문제는..node가 여러 개이면서 순환 구조가 아닌 경우에는 연산 도중에 node가 null로 나와서
     // rabbit을 재연산하는 과정에서 런타임 에러가 발생함. 이에 대한 처리가 필요!
 
-    while(pointer !== null){
+    while (pointer !== null){
         // 토끼와 거북이가 같은 node에 있으면 순환이 있는 것.
         if (pointer === node){
             return true;
