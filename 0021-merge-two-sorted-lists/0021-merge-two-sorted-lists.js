@@ -31,3 +31,16 @@ var mergeTwoLists = function(list1, list2) {
 
     return dummy.next; // 더미 노드의 next가 실제 병합된 리스트의 시작
 };
+
+var mergeTwoLists = function (list1, list2) {
+    if (!list1) return list2;
+    if (!list2) return list1;
+
+    if (list1.val < list2.val) {
+        list1.next = mergeTwoLists(list1.next, list2);
+        return list1;
+    } else {
+        list2.next = mergeTwoLists(list1, list2.next);
+        return list2;
+    }
+};
