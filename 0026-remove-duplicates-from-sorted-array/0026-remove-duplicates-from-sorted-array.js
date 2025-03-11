@@ -3,8 +3,10 @@
  * @return {number}
  */
 var removeDuplicates = function(nums) {
-    // 배열 크기는 바뀌지 않지만, k 이후의 값은 중요하지 않음
-    // ✅ O(n) 시간 복잡도로 해결해야 함
+    /** 문제 조건 사항
+        배열 크기는 바뀌지 않지만, k 이후의 값은 중요하지 않음
+        ✅ O(n) 시간 복잡도로 해결해야 함
+    */
     if (nums.length === 0) return 0;
 
     let i = 0; // 고유한 값이 들어갈 위치
