@@ -19,8 +19,6 @@ var hasPathSum = function(root, targetSum) {
 
         let copyTarget = target;
         copyTarget += node.val;
-        // 절댓값 조건 수정
-        // if (copyTarget > targetSum) return false;
         
         const isLeafNode = !node.left && !node.right;
 
