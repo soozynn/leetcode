@@ -19,7 +19,6 @@ var isPalindrome = function(s) {
     const filteredStrings = arrayStrings.filter(char => isAlphaNumeric(char)).map(char => char.toLowerCase());
     
     for (let i = 0; i < filteredStrings.length; i++) {
-        console.log(filteredStrings[i], filteredStrings[filteredStrings.length - i - 1])
         if (filteredStrings[i] !== filteredStrings[filteredStrings.length - i - 1]) return false;
     }
 
