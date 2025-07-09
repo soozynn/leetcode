@@ -1,19 +1,19 @@
-/**
- * @param {number[]} height
- * @return {number}
- */
 var maxArea = function(heightList) {
     let max = 0;
     let left = 0;
     let right = heightList.length - 1;
 
     while (left < right) {
-        max = max > Math.min(heightList[left], heightList[right]) * Math.abs(left - right) ? max : Math.min(heightList[left], heightList[right]) * Math.abs(left - right);
+        const height = Math.min(heightList[left], heightList[right]);
+        const width = right - left;
+        const area = height * width;
 
-        if (heightList[left] > heightList[right]) {
-            right -= 1;
+        max = Math.max(max, area);
+
+        if (heightList[left] < heightList[right]) {
+            left++;
         } else {
-            left += 1;
+            right--;
         }
     }
 
