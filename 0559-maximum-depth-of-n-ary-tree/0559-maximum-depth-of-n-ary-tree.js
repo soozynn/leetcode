@@ -16,10 +16,8 @@ var maxDepth = function(root) {
     if (root.children.length === 0) return depth;
 
     for (children of root.children) {
-        console.log(children, depth)
-        let biggerDepth = depth;
-        depth = maxDepth(children) + 1 || 0;
-        depth = Math.max(depth, biggerDepth)
+        let childrenDepth = maxDepth(children) + 1 || 0;
+        depth = Math.max(depth, childrenDepth);
     }
 
     return depth;
