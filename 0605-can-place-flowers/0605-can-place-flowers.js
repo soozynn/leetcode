@@ -8,7 +8,6 @@ var canPlaceFlowers = function(flowerbed, n) {
     let newFlowerNumber = n;
 
     while (pointer < flowerbed.length) {
-
         if (flowerbed[pointer] === 1) {
             pointer += 2;
             continue;
@@ -23,13 +22,9 @@ var canPlaceFlowers = function(flowerbed, n) {
             flowerbed[pointer + 1] === 0;
 
         if (left && right) {
-
             flowerbed[pointer] = 1;
-
             newFlowerNumber--;
-
             pointer += 2;
-
         } else {
             pointer += 1;
         }
