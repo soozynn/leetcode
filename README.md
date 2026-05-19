@@ -7,6 +7,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/soozynn/LeetCode-Solutions/tree/main/0599-minimum-index-sum-of-two-lists/) | Easy |
+| [0605-can-place-flowers](https://github.com/soozynn/LeetCode-Solutions/tree/main/0605-can-place-flowers/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -15,4 +16,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/soozynn/LeetCode-Solutions/tree/main/0599-minimum-index-sum-of-two-lists/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0605-can-place-flowers](https://github.com/soozynn/LeetCode-Solutions/tree/main/0605-can-place-flowers/) | Easy |
 <!---LeetCode Topics End-->
