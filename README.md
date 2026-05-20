@@ -20,4 +20,20 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0605-can-place-flowers](https://github.com/soozynn/LeetCode-Solutions/tree/main/0605-can-place-flowers/) | Easy |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0617-merge-two-binary-trees](https://github.com/soozynn/LeetCode-Solutions/tree/main/0617-merge-two-binary-trees/) | Easy |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0617-merge-two-binary-trees](https://github.com/soozynn/LeetCode-Solutions/tree/main/0617-merge-two-binary-trees/) | Easy |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0617-merge-two-binary-trees](https://github.com/soozynn/LeetCode-Solutions/tree/main/0617-merge-two-binary-trees/) | Easy |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0617-merge-two-binary-trees](https://github.com/soozynn/LeetCode-Solutions/tree/main/0617-merge-two-binary-trees/) | Easy |
 <!---LeetCode Topics End-->
